@@ -1,0 +1,126 @@
+/* Title styele */
+.supermarket-title {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+
+    margin: 8px;
+    padding: 5px;
+}
+
+/* Footer styele */
+.footer-container {
+    position: fixed;
+    bottom: 2px;
+    right: 0px;
+    z-index: 999;
+    border: 1px solid #5EADFE;
+    width: 20%;
+    margin: auto;
+    background-color: rgb(66, 97, 111);
+    padding: 2px;
+    border-radius: 1px;
+    text-align: center;
+    font-style: italic;
+    height: 30px;
+}
+
+
+.footer-text {
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    font-family: Roboto;
+}
+
+
+
+/* ######Tab1###### */
+.H2 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.HP {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 23px;
+}
+
+.H3{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.Hl{
+    text-align: left;
+    margin-left: 75px;
+    font-size: 20px;
+    margin-top: 45px;
+}
+
+
+/* ######Tab2###### */
+.Tab_sub_title {
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    color: rgb(254, 254, 254);
+    margin: 6px;
+    padding: 4px;
+}
+
+
+/* ######Tab2###### */
+.dt {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(254, 254, 254);
+    margin: 6px;
+    padding: 4px;
+}
+
+.Tab_bar {
+    background-color: #00ffff;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+.Tab_layout {
+    font-family: Times New Roman;
+    padding: 5px;
+    width: 60%;
+    margin: auto;
+    background-color: #1b2431;
+    color: #fe0002;
+    border-radius: 15px;
+}
+/* ######slider###### */
+.custom-style {
+    width: 80%;
+    position: relative;
+    margin-bottom: 0px;
+    left: 10%;
+    color: #ff0000;
+}
+
+
+
+/* For the clicked tab border radius */
+.tab--clicked {
+    border-radius: 25px; 
+  }
+  
+
+/* to make the dropdown option stright below to the box*/
+  .custom-dropdown .Select-menu-outer {
+    left: 2%;
+}
